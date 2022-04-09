@@ -4,7 +4,7 @@ import logo from "../Asset/logo.png";
 import "../App.css";
 const Navbar = () => {
   return (
-    <section className="p-4">
+    <section className="p-4 ">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
@@ -29,9 +29,9 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about" id="#about">
+                <Link className="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
                 <Link
@@ -58,8 +58,8 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/register">
-                  Regsiter
+                <Link className="nav-link" to="/login">
+                  {`Login & Sign up`}
                 </Link>
               </li>
             </ul>

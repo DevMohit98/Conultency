@@ -7,6 +7,7 @@ import Regsiter from "./Component/Register";
 import Navbar from "./Component/Navbar";
 import Footer from "./Component/Footer";
 import Loans from "./Component/Loans";
+import Login from "./Component/Login";
 const App = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/services" element={<Consultency />} />
           <Route path="/register" element={<Regsiter />} />
           <Route path="/loans" element={<Loans />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />
       </Router>
