@@ -189,7 +189,7 @@ footer {
   color: #57bfc8;
 }
 .banner-para {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: "Montserrat", sans-serif;
   color: #0f9d58;
 }
@@ -275,6 +275,34 @@ footer {
   .loan-amount {
     font-size: 0.9rem;
   }
+  .banner-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .banner-subtext {
+    font-size: 0.8rem;
+  }
+  .banner-para {
+    font-size: 1.2rem;
+  }
+  .logo {
+    width: 300px;
+    height: 300px;
+  }
+  .vision-title {
+    font-size: 1.5rem;
+  }
+  .vision-para {
+    font-size: 1rem;
+  }
+  .delivery-title {
+    font-size: 1.1rem;
+  }
+  .delivery-para {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 1rem;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 786px) {
   .banner {
@@ -295,6 +323,39 @@ footer {
   .loan-features,
   .loan-amount {
     font-size: 0.7rem;
+  }
+  .banner-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .banner-subtext {
+    font-size: 0.8rem;
+  }
+  .banner-para {
+    font-size: 1.2rem;
+  }
+  .vision-title {
+    font-size: 1.5rem;
+  }
+  .vision-para {
+    font-size: 1rem;
+  }
+  .delivery-title {
+    font-size: 1.1rem;
+  }
+  .delivery-para {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 1rem;
+  }
+  .purpose-title {
+    font-size: 1.8rem;
+  }
+  .doing-image {
+    width: 400px;
+  }
+  .purpose-para {
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -325,5 +386,38 @@ footer {
   }
   .banner-quote {
     font-size: 0.7rem;
+  }
+  .delivery-title {
+    font-size: 1.1rem;
+  }
+  .delivery-para {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 1rem;
+  }
+  .banner-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .banner-subtext {
+    font-size: 0.8rem;
+  }
+  .banner-para {
+    font-size: 1.2rem;
+  }
+  .vision-title {
+    font-size: 1.5rem;
+  }
+  .vision-para {
+    font-size: 1rem;
+  }
+  .purpose-title {
+    font-size: 1.8rem;
+  }
+  .doing-image {
+    width: 300px;
+  }
+  .purpose-para {
+    font-size: 1.5rem;
   }
 }

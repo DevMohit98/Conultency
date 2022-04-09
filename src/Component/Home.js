@@ -9,12 +9,12 @@ const Home = () => {
     <>
       <section className="p-4">
         <div className="row">
-          <div className="col col-xl-3 ">
-            <div className="d-flex justify-content-cnter align-items-center">
+          <div className="col col-xl-3 col-md-12 col-sm-12 col-12 ">
+            <div className="d-flex justify-content-center align-items-center">
               <img src={logo} alt="logo" className="logo"></img>
             </div>
           </div>
-          <div className="col   d-flex justify-content-center align-items-center flex-column">
+          <div className="col col-xl-9 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center flex-column">
             <h1 className="banner-text mt-4">
               GLASwomen – Green Loans Africa/Asia Start-ups Women
             </h1>
@@ -45,8 +45,14 @@ const Home = () => {
               Loan opportunities.
             </p>
           </div>
-          <div className="col col-xl-4">
-            <img src={vision} alt="vision" className="mt-4 vision-image"></img>
+          <div className="col">
+            <div className="d-flex justify-content-center align-items-center">
+              <img
+                src={vision}
+                alt="vision"
+                className="mt-4 vision-image"
+              ></img>
+            </div>
           </div>
         </div>
       </section>
@@ -62,7 +68,7 @@ const Home = () => {
                 ></img>
               </div>
             </div>
-            <div className="col col-xl-4 pt-4">
+            <div className="col col-xl-4 col-sm-12 pt-4">
               <div className="d-flex justify-content-center align-items-center flex-column mt-4">
                 <h1 className="delivery-title">What are we delivering?</h1>
                 <p className="mt-2 delivery-para text-center">

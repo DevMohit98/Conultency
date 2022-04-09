@@ -29,12 +29,12 @@ const About = () => {
       </section>
       <section className="p-4 about1">
         <div className="row">
-          <div className="col col-xl-6">
+          <div className="col col-xl-6 col-lg-12">
             <div className="d-flex justify-content-center align-items-center">
               <img src={doing} alt="doing" className="doing-image "></img>
             </div>
           </div>
-          <div className="col col-xl-6">
+          <div className="col col-xl-6 ">
             <div className="d-flex justify-content-center align-item-center mt-4">
               <p className=" purpose-para text-center mt-4">
                 We designed the business models for Women's start-ups in
