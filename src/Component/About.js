@@ -27,16 +27,19 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="p-4 about1">
+      <section className="p-4">
+        <div className="d-flex justify-content-center align-item-center">
+          <h1 className="purpose-title">How we are doing this ?</h1>
+        </div>
         <div className="row">
-          <div className="col col-xl-6 col-lg-12">
+          <div className="col col-xl-6">
             <div className="d-flex justify-content-center align-items-center">
               <img src={doing} alt="doing" className="doing-image "></img>
             </div>
           </div>
-          <div className="col col-xl-6 ">
+          <div className="col col-xl-6">
             <div className="d-flex justify-content-center align-item-center mt-4">
-              <p className=" purpose-para text-center mt-4">
+              <p className=" purpose-para  mt-4">
                 We designed the business models for Women's start-ups in
                 Sustainability We create a user-friendly platform informing and
                 comparing start-up Green Loan options We provide Agile

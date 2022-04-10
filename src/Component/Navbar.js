@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../Asset/logo.png";
+import navlogo from "../Asset/navlogo.png";
 import "../App.css";
 const Navbar = () => {
   return (
-    <section className="p-4 ">
+    <section>
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src={logo} alt="logo" width="80" height="80"></img>
+            <img src={navlogo} alt="logo" width="80" height="80"></img>
           </Link>
           <button
             className="navbar-toggler"

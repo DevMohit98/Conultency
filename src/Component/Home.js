@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../Asset/logo.png";
 import "../App.css";
-import vision from "../Asset/vision.jpg";
+import visionclip from "../Asset/visionclip.png";
 import delivery from "../Asset/delivery.png";
 import doing from "../Asset/doing.png";
 const Home = () => {
@@ -32,7 +32,7 @@ const Home = () => {
       </section>
       <section className="p-4">
         <div className="row">
-          <div className=" col col-xl-6 p-4 m-4">
+          <div className="col p-4 m-4">
             <h1 className="vision-title">Our vision</h1>
             <p className="mt-3 vision-para">
               Our vision is to create a customer-centric platform for Women’s
@@ -48,7 +48,7 @@ const Home = () => {
           <div className="col">
             <div className="d-flex justify-content-center align-items-center">
               <img
-                src={vision}
+                src={visionclip}
                 alt="vision"
                 className="mt-4 vision-image"
               ></img>
@@ -59,7 +59,7 @@ const Home = () => {
       <section className="p-4">
         <div className="section-bg">
           <div className="row">
-            <div className=" col col-xl-6 p-4 m-4">
+            <div className=" col col-xl-6  p-4 m-4">
               <div className="d-flex justify-content-center align-item-center">
                 <img
                   src={delivery}
@@ -70,8 +70,8 @@ const Home = () => {
             </div>
             <div className="col col-xl-4 col-sm-12 pt-4">
               <div className="d-flex justify-content-center align-items-center flex-column mt-4">
-                <h1 className="delivery-title">What are we delivering?</h1>
-                <p className="mt-2 delivery-para text-center">
+                <h1 className="delivery-title ">What are we delivering?</h1>
+                <p className="mt-2 text-center delivery-para ">
                   We deliver value to start-ups by encouraging, supporting, and
                   mentoring women in their business ventures. We deliver
                   valuable information, on how to start, how to grow and whom to
@@ -92,14 +92,14 @@ const Home = () => {
           <h1 className="purpose-title">How we are doing this ?</h1>
         </div>
         <div className="row">
-          <div className="col col-xl-6">
+          <div className="col col-xl-6 col-md-12 col-sm-12 col-12">
             <div className="d-flex justify-content-center align-items-center">
               <img src={doing} alt="doing" className="doing-image "></img>
             </div>
           </div>
-          <div className="col col-xl-6">
+          <div className="col col-xl-6 col-md-12 col-sm-12 col-12 ">
             <div className="d-flex justify-content-center align-item-center mt-4">
-              <p className=" purpose-para text-center mt-4">
+              <p className=" purpose-para  mt-4">
                 We designed the business models for Women's start-ups in
                 Sustainability We create a user-friendly platform informing and
                 comparing start-up Green Loan options We provide Agile

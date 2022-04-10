@@ -1,12 +1,12 @@
 import React from "react";
 import "../App.css";
-import login from "../Asset/login.jpg";
+import loginnew from "../Asset/loginnew.png";
 const Register = () => {
   return (
     <section className="p-4">
       <div className="row container-bg">
         <div className="col col xl-6 col-lg-6 col-md-12 col-sm-12">
-          <img src={login} className="login-image" alt="login"></img>
+          <img src={loginnew} className="login-image" alt="login"></img>
         </div>
         <div className="col col xl-6 col-lg-6 col-md-12 col-sm-12 mt-3">
           <form>
